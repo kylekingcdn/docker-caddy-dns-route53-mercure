@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        image_name = 'kylekingcdn/caddy-dns-route53'
+        image_name = 'kylekingcdn/caddy-dns-route53-mercure'
         image_tag = 'latest'
         registry_endpoint = ''
         registry_credentials = 'dockerhub-credentials'
